@@ -10,7 +10,7 @@ class ListAllUsersController {
 
     this.listAllUsersUseCase.execute({ user_id });
 
-    return response.status(201).send();
+    return response.status(200).send();
   }
 }
 
